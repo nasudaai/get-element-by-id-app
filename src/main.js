@@ -1,3 +1,4 @@
+import  { add }from './add.js';
 console.log('main');
 
 const app = document.getElementById('app');
@@ -25,3 +26,4 @@ addBtn.addEventListener('click', () => {
 } )
 
 
+add();
