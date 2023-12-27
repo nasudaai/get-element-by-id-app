@@ -1,4 +1,5 @@
 import  { add } from './add.js';
+import { subTitle } from './components/sub-title.js';
 console.log('main');
 
 const app = document.getElementById('app');
@@ -30,3 +31,5 @@ add();
 
 const writeText = document.querySelector('.write-text')
 console.log(writeText)
+
+console.log(subTitle);
