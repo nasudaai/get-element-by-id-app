@@ -1,0 +1,10 @@
+button {
+  display: block;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  margin-bottom: 2px;
+}
+
+button:hover {
+  border-color: blue;
+}
